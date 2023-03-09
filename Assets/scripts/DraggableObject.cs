@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class DraggableObject : MonoBehaviour
 {
+    
     private Rigidbody _rigidbody;
     private float _startYPos;
     private BoardController _board;
@@ -27,4 +28,5 @@ public class DraggableObject : MonoBehaviour
         _rigidbody.velocity = speed;
         _rigidbody.rotation = Quaternion.Euler(new Vector3(speed.z, 0, -speed.x));
     }
+
 }

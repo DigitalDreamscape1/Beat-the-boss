@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class roomTrans : MonoBehaviour
+public class BackToMain : MonoBehaviour
 {
-    public void OnMouseDown()
+    public void BackToMenu()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(0);
     }
 }

@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class roomTrans : MonoBehaviour
+public class minigameTrans : MonoBehaviour
 {
+    // Start is called before the first frame update
     public void OnMouseDown()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("miniGame2");
     }
 }
